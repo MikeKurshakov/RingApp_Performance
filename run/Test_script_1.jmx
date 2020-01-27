@@ -264,7 +264,7 @@
       </ThreadGroup>
       <hashTree>
         <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
-          <stringProp name="groupSize">${__groovy(vars.get(&apos;GETTING_LIST_THREADS_NUM&apos;).toInteger()*vars.get(&apos;GETTING_LIST_BATCH_SIZE&apos;).toInteger()}</stringProp>
+          <stringProp name="groupSize">${__groovy(vars.get(&apos;GETTING_LIST_THREADS_NUM&apos;).toInteger()*vars.get(&apos;GETTING_LIST_BATCH_SIZE&apos;).toInteger())}</stringProp>
           <stringProp name="timeoutInMs">${__groovy(vars.get(&quot;TIMEOUT&quot;).toInteger() * 1000 *60)}</stringProp>
         </SyncTimer>
         <hashTree/>
