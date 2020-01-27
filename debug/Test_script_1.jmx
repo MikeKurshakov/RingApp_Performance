@@ -387,12 +387,12 @@
             </elementProp>
             <elementProp name="summaryOnly" elementType="Argument">
               <stringProp name="Argument.name">summaryOnly</stringProp>
-              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.value">false</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="samplersRegex" elementType="Argument">
               <stringProp name="Argument.name">samplersRegex</stringProp>
-              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.value">.*(?!Prepare).*</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="percentiles" elementType="Argument">
