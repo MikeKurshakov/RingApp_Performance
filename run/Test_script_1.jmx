@@ -377,7 +377,7 @@
             </elementProp>
             <elementProp name="application" elementType="Argument">
               <stringProp name="Argument.name">application</stringProp>
-              <stringProp name="Argument.value">application name</stringProp>
+              <stringProp name="Argument.value">Script 1</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="measurement" elementType="Argument">
@@ -392,7 +392,7 @@
             </elementProp>
             <elementProp name="samplersRegex" elementType="Argument">
               <stringProp name="Argument.name">samplersRegex</stringProp>
-              <stringProp name="Argument.value">.*(?!Prepare).*</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="percentiles" elementType="Argument">
