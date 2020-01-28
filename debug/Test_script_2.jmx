@@ -146,7 +146,7 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${CDR_BATCH_SIZE}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${__groovy(vars.get(&apos;CDR_DURATION&apos;).toInteger() * 60)}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
