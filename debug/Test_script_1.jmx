@@ -268,6 +268,11 @@
           <stringProp name="timeoutInMs">${__groovy(vars.get(&quot;TIMEOUT&quot;).toInteger() * 1000 *60)}</stringProp>
         </SyncTimer>
         <hashTree/>
+        <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer" enabled="true">
+          <intProp name="calcMode">2</intProp>
+          <stringProp name="throughput">${__groovy(vars.get(&apos;GETTING_LIST_THREADS_NUM&apos;).toInteger()*vars.get(&apos;GETTING_LIST_BATCH_SIZE&apos;).toInteger()  *60)}</stringProp>
+        </ConstantThroughputTimer>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /api/tasks" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
