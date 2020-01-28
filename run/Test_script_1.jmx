@@ -27,7 +27,7 @@
           </elementProp>
           <elementProp name="GETTING_LIST_BATCH_SIZE" elementType="Argument">
             <stringProp name="Argument.name">GETTING_LIST_BATCH_SIZE</stringProp>
-            <stringProp name="Argument.value">${__P(GETTING_LIST_BATCH_SIZE,50)}</stringProp>
+            <stringProp name="Argument.value">${__P(GETTING_LIST_BATCH_SIZE,100)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GETTING_LIST_THREADS_NUM" elementType="Argument">
